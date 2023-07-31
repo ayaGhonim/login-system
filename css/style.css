@@ -1,0 +1,41 @@
+body{
+    background-color: #1e2d36;
+}
+.page{
+   min-height: 24rem;
+    background-color:#24353fd0 ;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+h2{
+    font-family:cursive ;
+    color: #17A2B8;
+}
+p,a{
+    color: #CED4DA;
+}
+p a{
+ text-decoration: none;
+ transition: all 1s;
+}
+p a:hover{
+    text-decoration: underline;
+     color: white;
+}
+button{
+    background-color: transparent;
+    color: #17A2B8;
+    border: 1px solid #17A2B8;
+    transition: all .5s;
+}
+button:hover{
+    background-color: #17A2BB ;
+    color: white;
+}
+input{
+    background-color: transparent !important;
+    border: 1px solid #CED4DA !important;
+   overflow: hidden;
+   color: white !important;
+}
+

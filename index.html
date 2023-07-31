@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>signup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- login -->
+    <div class="container d-flex justify-content-center align-items-center mb-5 min-vh-100" id="signinForm">
+        <div class="page shadow px-5 w-75">
+            <h2 class="text-center my-5 fs-1">Smart Login System</h2>
+            <input type="email" class="form-control mb-3" id="uemail" placeholder="Enter Your Email">
+            <input type="password" class="form-control mb-3" id="upassword" placeholder="Enter Your password">
+            <h5 id="message1" class="text-center text-danger"></h5>
+            <a href="#"><button class="w-100 py-2 rounded-3 mt-4 mb-2" id="btnLogin">LOGIN</button></a>
+            <p class="text-center mb-5 pt-2">You Have An account?<a href="#" id="linkSignup">Sign up</a></p>
+        </div>
+    </div>
+
+<!-- sign up -->
+    <div class="container  justify-content-center align-items-center min-vh-100 d-none" id="signupForm">
+        <div class="page shadow px-5 w-75">
+            <h2 class="text-center my-5 fs-1">Smart Login System</h2>
+            <input type="text" class="form-control mb-3" id="uname" placeholder="Enter Your Name">
+            <input type="email" class="form-control mb-3" id="uemail2" placeholder="Enter Your Email">
+            <input type="password" class="form-control mb-3" id="upassword2" placeholder="Enter Your password">
+            <h5 id="message" class="text-center text-danger"></h5>
+            <a href="#"><button class="w-100 py-2 rounded-3 mt-4 mb-2" id="btnSignup">SIGN UP</button></a>
+            <p class="text-center mb-5 pt-2">You Have An account?<a href="#" id="linkSignin">Sign In</a></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
